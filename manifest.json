@@ -1,11 +1,11 @@
 {
   "manifest": "1",
-  "client_id": "{{YOUR_CLIENT_ID}}",
+  "client_id": "690460479",
   "version": "1.0.0",
-  "callback_url": "{{YOUR_SECURE_APP_ROOT_URL}}/oauth/phase-one", 
+  "callback_url": "https://social-icons.herokuapp.com/oauth/phase-one", 
   "oauth_final_destination": "home",
   "webhooks": {
-    "callback_url": "{{YOUR_SECURE_APP_ROOT_URL}}/webhooks/callback",
+    "callback_url": "https://social-icons.herokuapp.com/webhooks/callback",
     "events": [
       "user.update","site.publish", "site.delete", "app.uninstall"
     ]
