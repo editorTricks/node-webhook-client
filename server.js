@@ -31,7 +31,7 @@ app.use(bodyParser.urlencoded({
  * @type {WeeblyMiddleware|exports|module.exports}
  */
 const wMiddleware = new WeeblyMiddleware({
-	'client_id': '',
+	'client_id': '690460479',
 	'secret_key': '5e9ff66338b647c4ff03dc55be50536e4c02f2de57f6b2b45cc9d0ac587c2bef'
 });
 
